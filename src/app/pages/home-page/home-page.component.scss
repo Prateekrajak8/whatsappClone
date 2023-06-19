@@ -1,0 +1,32 @@
+.hm-p-header{
+
+  .hm-p-body{
+    margin: 5% 20%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    .hm-p-body-container{
+        padding: 8%;
+        display: flex;
+        justify-content: space-between;
+        .hm-p-container-1{
+            display: grid;
+            grid-gap: 2.5rem;
+            .t-hd-text{
+                font-size: 28px;
+                font-weight: 300;
+                line-height: normal;
+                color: #41525d;
+            }
+            .hm-p-guideline{
+                display: grid;
+                grid-gap: 1rem;
+                .t-bd-text{
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: var(--gray-700);
+                }
+            } 
+          }
+    } 
+  }
+  
+}
